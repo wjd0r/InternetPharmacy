@@ -18,7 +18,7 @@
 
       <footer class="mastfoot mt-auto">
         <div class="inner">
-          <p>f.software engineer @ All Right Reserved</p>
+          <p>wjd0r.software engineer @ All Right Reserved</p>
         </div>
       </footer>
     </div>
