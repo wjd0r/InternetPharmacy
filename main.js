@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import YoungGyun from './YoungGyun';
+import InternetPharmacy from './InternetPharmacy';
 
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -17,4 +17,4 @@ Vue.config.productionTip = false
 
 Vue.use(BootstrapVue)
 
-new Vue(YoungGyun).$mount('#root');
+new Vue(InternetPharmacy).$mount('#root');
