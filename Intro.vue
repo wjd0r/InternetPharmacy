@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="text-center">
         <h1 class="cover-heading">Introduce</h1>
         <p class="lead">
             찾아 주셔서 감사합니다.<br>

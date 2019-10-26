@@ -1,5 +1,5 @@
 <template>
-  <div class="body text-center">
+  <div class="body">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header-component></header-component>
       <main-component></main-component>

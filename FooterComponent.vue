@@ -1,5 +1,5 @@
 <template>
-    <div class="mastfoot mt-auto">
+    <div class="mastfoot mt-auto text-center">
       <footer>
         <div class="inner">
           <p>wjd0r.software engineer @ All Right Reserved</p>
