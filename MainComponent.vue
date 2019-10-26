@@ -1,25 +1,32 @@
 <template>
     <div role="main" class="inner cover">
-      <div v-if="mainView === 'intro'">intro</div>
-      <div v-if="mainView === 'img'">img</div>
+      <div v-if="selectNav === 'intro'">
+        <Intro></Intro>
+      </div>
+      <div v-if="selectNav === 'introuction'">
+        <ImageOverlay></ImageOverlay>
+      </div>
     </div>
 </template>
 
 <script>
   import { mapState } from 'vuex';
   import store from './store';
+  import Intro from './Intro';
+  import ImageOverlay from './ImageOverlay';
 
   export default {
     store,
     components: {
-
+      Intro,
+      ImageOverlay,
     },
     data() {
       return {
       }
     },
     computed: {
-      ...mapState(['navs', 'mainView']),
+      ...mapState(['navs', 'selectNav']),
     },
     methods: {
       

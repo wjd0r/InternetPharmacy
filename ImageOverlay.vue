@@ -2,7 +2,7 @@
     <div>
       <div class="card bg-dark text-white">
         <img
-            src="./img/premium-q10-forte.jpeg" 
+            src="img/premium-q10-forte.jpeg" 
             class="card-img"
             alt="Premium Q10 Forte">
         <div class="card-img-overlay">
@@ -21,7 +21,6 @@
   export default {
     store,
     components: {
-
     },
     data() {
       return {

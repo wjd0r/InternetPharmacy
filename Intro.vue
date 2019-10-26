@@ -28,11 +28,11 @@
       }
     },
     computed: {
-      ...mapState(['navs']),
+      ...mapState(['navs', 'selectNav']),
     },
     methods: {
       onClickLearnMore() {
-          this.$store.commit(IMG_VIEW);
+        this.$store.commit(IMG_VIEW);
       }
     },
   }
