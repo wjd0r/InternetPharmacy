@@ -1,18 +1,7 @@
 <template>
     <div role="main" class="inner cover">
-      <main class="">
-        <h1 class="cover-heading">Introduce</h1>
-        <p class="lead">
-            찾아 주셔서 감사합니다.<br>
-            여기는 인터넷 약국입니다.<br>
-            더 자세한 사항은 아래를 눌러 주세요
-        </p>
-        <p class="lead">
-          <a href="#" class="btn btn-lg btn-primary">
-            Learn more
-          </a>
-        </p>
-      </main>
+      <div v-if="mainView === 'intro'">intro</div>
+      <div v-if="mainView === 'img'">img</div>
     </div>
 </template>
 
@@ -30,7 +19,7 @@
       }
     },
     computed: {
-      ...mapState(['navs']),
+      ...mapState(['navs', 'mainView']),
     },
     methods: {
       
